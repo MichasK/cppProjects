@@ -16,7 +16,7 @@ private:
 
 public:
     AstronomicFrame(std::string s):Frame(s){};
-    void filtrFrame(const cv::Mat&);
+    void filtrFrame();
     std::vector<int>  getmatrixFrame()const{return vectorFrame;};
     cv::Mat computeTrecholdedFrame(double)const;
 

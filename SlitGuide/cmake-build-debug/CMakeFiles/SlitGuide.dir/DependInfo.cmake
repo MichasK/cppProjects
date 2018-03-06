@@ -7,17 +7,21 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/michal/CLionProjects/SlitGuide/main.cpp" "/home/michal/CLionProjects/SlitGuide/cmake-build-debug/CMakeFiles/SlitGuide.dir/main.cpp.o"
   "/home/michal/CLionProjects/SlitGuide/src/AstronomicFrame.cpp" "/home/michal/CLionProjects/SlitGuide/cmake-build-debug/CMakeFiles/SlitGuide.dir/src/AstronomicFrame.cpp.o"
   "/home/michal/CLionProjects/SlitGuide/src/Frame.cpp" "/home/michal/CLionProjects/SlitGuide/cmake-build-debug/CMakeFiles/SlitGuide.dir/src/Frame.cpp.o"
+  "/home/michal/CLionProjects/SlitGuide/test/AstronomicFram_test.cpp" "/home/michal/CLionProjects/SlitGuide/cmake-build-debug/CMakeFiles/SlitGuide.dir/test/AstronomicFram_test.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../lib/googletest-master/googletest/include"
+  "../lib/googletest-master/googlemock/include"
   "/usr/local/include"
   "/usr/local/include/opencv"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/home/michal/CLionProjects/SlitGuide/cmake-build-debug/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

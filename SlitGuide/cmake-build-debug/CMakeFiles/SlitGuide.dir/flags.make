@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -isystem /usr/local/include -isystem /usr/local/include/opencv 
+CXX_INCLUDES = -isystem /home/michal/CLionProjects/SlitGuide/lib/googletest-master/googletest/include -I/home/michal/CLionProjects/SlitGuide/lib/googletest-master/googlemock/include -isystem /usr/local/include -isystem /usr/local/include/opencv 
 

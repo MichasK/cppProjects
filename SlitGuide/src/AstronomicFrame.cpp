@@ -6,26 +6,29 @@
 
 
 
-void AstronomicFrame::filtrFrame(const cv::Mat &frame){
+void AstronomicFrame::filtrFrame(){
     filtredFrame= frame.clone();
-    GaussianBlur(filtredFrame, filtredFrame, cv::Size(5, 5), 3, 3);
+    cv::medianBlur(filtredFrame,filtredFrame,3);
     vectorFrame.assign(frame.datastart,frame.dataend);
+    if(vectorFrame.empty()) throw std::runtime_error("Error during converting Frame to vector");
 }
 
 cv::Mat AstronomicFrame::computeTrecholdedFrame(double tresholdValue)const{
     cv::Mat treshFrame;
     threshold(frame,treshFrame, tresholdValue, 255, cv::THRESH_BINARY);
+    // Remove salt&pepper Noise
+    cv::medianBlur(treshFrame,treshFrame,3);
     return treshFrame;
 }
 
 double calculateTreshold(std::vector<int> v){
     double sum=std::accumulate(v.begin(),v.end(),0.0);
-    double average =  sum / v.size();
+    double average =  (double)sum / v.size();
     double variance = 0.0;
     std::for_each (std::begin(v), std::end(v), [&](const double d) {
         variance += (d - average) * (d - average);
     });
-
-    double stdev = sqrt(variance / (v.size()-1));
+    double stdev = sqrt((double)variance / (v.size()-1));
+    return average + 3*stdev;//Astronomical dependence
 }
 

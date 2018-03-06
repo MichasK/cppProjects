@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/SlitGuide.dir/main.cpp.o"
   "CMakeFiles/SlitGuide.dir/src/Frame.cpp.o"
   "CMakeFiles/SlitGuide.dir/src/AstronomicFrame.cpp.o"
+  "CMakeFiles/SlitGuide.dir/test/AstronomicFram_test.cpp.o"
   "SlitGuide.pdb"
   "SlitGuide"
 )
