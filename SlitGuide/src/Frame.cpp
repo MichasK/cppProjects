@@ -4,7 +4,6 @@
 
 #include "Frame.hpp"
 #include <iostream>
-#include <exception>
 
 Frame::Frame(std::string pathToFile):frameName(pathToFile) {
     frame = cv::imread(pathToFile.c_str(), CV_LOAD_IMAGE_GRAYSCALE);

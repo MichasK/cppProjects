@@ -5,7 +5,6 @@
 #ifndef SLITGUIDE_ASTRONOMICFRAME_HPP
 #define SLITGUIDE_ASTRONOMICFRAME_HPP
 #include "Frame.hpp"
-#include "Types.hpp"
 
 #include <opencv/cv.hpp>
 
@@ -16,9 +15,12 @@ private:
 
 public:
     AstronomicFrame(std::string s):Frame(s){};
+    AstronomicFrame(cv::Mat m):Frame(m){};
     void filtrFrame();
-    std::vector<int>  getmatrixFrame()const{return vectorFrame;};
-    cv::Mat computeTrecholdedFrame(double)const;
+    void computeFrameToVector();
+    std::vector<int>  getvecFrame()const{return vectorFrame;};
+    AstronomicFrame computeTrecholdedFrame(double)const;
+    AstronomicFrame FrameROI()const;
 
 };
 double calculateTreshold(std::vector<int>);

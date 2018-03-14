@@ -7,6 +7,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/michal/CLionProjects/SlitGuide/main.cpp" "/home/michal/CLionProjects/SlitGuide/cmake-build-debug/CMakeFiles/SlitGuide.dir/main.cpp.o"
   "/home/michal/CLionProjects/SlitGuide/src/AstronomicFrame.cpp" "/home/michal/CLionProjects/SlitGuide/cmake-build-debug/CMakeFiles/SlitGuide.dir/src/AstronomicFrame.cpp.o"
   "/home/michal/CLionProjects/SlitGuide/src/Frame.cpp" "/home/michal/CLionProjects/SlitGuide/cmake-build-debug/CMakeFiles/SlitGuide.dir/src/Frame.cpp.o"
+  "/home/michal/CLionProjects/SlitGuide/src/SearchingMethods.cpp" "/home/michal/CLionProjects/SlitGuide/cmake-build-debug/CMakeFiles/SlitGuide.dir/src/SearchingMethods.cpp.o"
   "/home/michal/CLionProjects/SlitGuide/test/AstronomicFram_test.cpp" "/home/michal/CLionProjects/SlitGuide/cmake-build-debug/CMakeFiles/SlitGuide.dir/test/AstronomicFram_test.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

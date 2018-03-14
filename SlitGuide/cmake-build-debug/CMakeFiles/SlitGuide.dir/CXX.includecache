@@ -295,22 +295,18 @@ src/Frame.hpp
 /home/michal/CLionProjects/SlitGuide/src/Frame.hpp
 src/AstronomicFrame.hpp
 /home/michal/CLionProjects/SlitGuide/src/AstronomicFrame.hpp
-src/Types.hpp
-/home/michal/CLionProjects/SlitGuide/src/Types.hpp
 gtest/gtest.h
 /home/michal/CLionProjects/SlitGuide/gtest/gtest.h
 
 /home/michal/CLionProjects/SlitGuide/src/AstronomicFrame.cpp
 AstronomicFrame.hpp
 /home/michal/CLionProjects/SlitGuide/src/AstronomicFrame.hpp
-Types.hpp
-/home/michal/CLionProjects/SlitGuide/src/Types.hpp
+iostream
+-
 
 /home/michal/CLionProjects/SlitGuide/src/AstronomicFrame.hpp
 Frame.hpp
 /home/michal/CLionProjects/SlitGuide/src/Frame.hpp
-Types.hpp
-/home/michal/CLionProjects/SlitGuide/src/Types.hpp
 opencv/cv.hpp
 -
 
@@ -318,8 +314,6 @@ opencv/cv.hpp
 Frame.hpp
 /home/michal/CLionProjects/SlitGuide/src/Frame.hpp
 iostream
--
-exception
 -
 
 /home/michal/CLionProjects/SlitGuide/src/Frame.hpp
@@ -332,8 +326,8 @@ string
 exception
 -
 
-/home/michal/CLionProjects/SlitGuide/src/Types.hpp
-vector
+/home/michal/CLionProjects/SlitGuide/src/SearchingMethods.cpp
+opencv2/core/types.hpp
 -
 
 /home/michal/CLionProjects/SlitGuide/test/AstronomicFram_test.cpp
@@ -341,8 +335,20 @@ AstronomicFram_test.hpp
 /home/michal/CLionProjects/SlitGuide/test/AstronomicFram_test.hpp
 gtest/gtest.h
 /home/michal/CLionProjects/SlitGuide/test/gtest/gtest.h
+opencv2/core/core.hpp
+-
+opencv2/highgui/highgui.hpp
+-
+numeric
+-
 
 /home/michal/CLionProjects/SlitGuide/test/AstronomicFram_test.hpp
+gtest/gtest.h
+-
+opencv2/core/mat.hpp
+-
+../src/AstronomicFrame.hpp
+/home/michal/CLionProjects/SlitGuide/src/AstronomicFrame.hpp
 
 /usr/local/include/opencv/cv.h
 opencv2/core/core_c.h

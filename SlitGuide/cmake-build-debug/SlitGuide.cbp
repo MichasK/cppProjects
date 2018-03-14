@@ -388,7 +388,7 @@
 		<Unit filename="/home/michal/CLionProjects/SlitGuide/src/FrameData.hpp">
 			<Option target="SlitGuide"/>
 		</Unit>
-		<Unit filename="/home/michal/CLionProjects/SlitGuide/src/Types.hpp">
+		<Unit filename="/home/michal/CLionProjects/SlitGuide/src/SearchingMethods.cpp">
 			<Option target="SlitGuide"/>
 		</Unit>
 		<Unit filename="/home/michal/CLionProjects/SlitGuide/test/AstronomicFram_test.cpp">

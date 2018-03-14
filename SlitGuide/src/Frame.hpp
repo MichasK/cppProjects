@@ -19,6 +19,7 @@ protected:
     std::string frameName;
 public:
     Frame(std::string);
+    Frame(cv::Mat m): frame(m){};
     Frame(){throw std::invalid_argument("Empty frame must not be created");}
     cv::Mat getFrame()const{ return frame;};
 };
