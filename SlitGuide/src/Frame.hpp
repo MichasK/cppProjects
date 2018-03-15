@@ -18,8 +18,10 @@ protected:
     cv::Mat frame;
     std::string frameName;
 public:
+    int cols;
+    int rows;
     Frame(std::string);
-    Frame(cv::Mat m): frame(m){};
+    Frame(cv::Mat m): frame(m),cols(m.cols),rows(m.rows){};
     Frame(){throw std::invalid_argument("Empty frame must not be created");}
     cv::Mat getFrame()const{ return frame;};
 };

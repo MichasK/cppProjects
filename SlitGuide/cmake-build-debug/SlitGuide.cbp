@@ -391,6 +391,15 @@
 		<Unit filename="/home/michal/CLionProjects/SlitGuide/src/SearchingMethods.cpp">
 			<Option target="SlitGuide"/>
 		</Unit>
+		<Unit filename="/home/michal/CLionProjects/SlitGuide/src/SearchingMethods.hpp">
+			<Option target="SlitGuide"/>
+		</Unit>
+		<Unit filename="/home/michal/CLionProjects/SlitGuide/src/uart.c">
+			<Option target="SlitGuide"/>
+		</Unit>
+		<Unit filename="/home/michal/CLionProjects/SlitGuide/src/uart.h">
+			<Option target="SlitGuide"/>
+		</Unit>
 		<Unit filename="/home/michal/CLionProjects/SlitGuide/test/AstronomicFram_test.cpp">
 			<Option target="SlitGuide"/>
 		</Unit>

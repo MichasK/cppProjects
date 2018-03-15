@@ -20,8 +20,10 @@ public:
     void computeFrameToVector();
     std::vector<int>  getvecFrame()const{return vectorFrame;};
     AstronomicFrame computeTrecholdedFrame(double)const;
-    AstronomicFrame FrameROI()const;
 
 };
 double calculateTreshold(std::vector<int>);
+AstronomicFrame FrameROI(const AstronomicFrame&, cv::Point&);
+cv::Point calculateGuideCenter(AstronomicFrame&, std::function<cv::Point(AstronomicFrame)>);
+AstronomicFrame computeBinaryFrame(AstronomicFrame& f);
 #endif //SLITGUIDE_ASTRONOMICFRAME_HPP

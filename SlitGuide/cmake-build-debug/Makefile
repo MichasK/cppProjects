@@ -329,6 +329,33 @@ src/SearchingMethods.cpp.s:
 	$(MAKE) -f CMakeFiles/SlitGuide.dir/build.make CMakeFiles/SlitGuide.dir/src/SearchingMethods.cpp.s
 .PHONY : src/SearchingMethods.cpp.s
 
+src/uart.o: src/uart.c.o
+
+.PHONY : src/uart.o
+
+# target to build an object file
+src/uart.c.o:
+	$(MAKE) -f CMakeFiles/SlitGuide.dir/build.make CMakeFiles/SlitGuide.dir/src/uart.c.o
+.PHONY : src/uart.c.o
+
+src/uart.i: src/uart.c.i
+
+.PHONY : src/uart.i
+
+# target to preprocess a source file
+src/uart.c.i:
+	$(MAKE) -f CMakeFiles/SlitGuide.dir/build.make CMakeFiles/SlitGuide.dir/src/uart.c.i
+.PHONY : src/uart.c.i
+
+src/uart.s: src/uart.c.s
+
+.PHONY : src/uart.s
+
+# target to generate assembly for a file
+src/uart.c.s:
+	$(MAKE) -f CMakeFiles/SlitGuide.dir/build.make CMakeFiles/SlitGuide.dir/src/uart.c.s
+.PHONY : src/uart.c.s
+
 test/AstronomicFram_test.o: test/AstronomicFram_test.cpp.o
 
 .PHONY : test/AstronomicFram_test.o
@@ -385,6 +412,9 @@ help:
 	@echo "... src/SearchingMethods.o"
 	@echo "... src/SearchingMethods.i"
 	@echo "... src/SearchingMethods.s"
+	@echo "... src/uart.o"
+	@echo "... src/uart.i"
+	@echo "... src/uart.s"
 	@echo "... test/AstronomicFram_test.o"
 	@echo "... test/AstronomicFram_test.i"
 	@echo "... test/AstronomicFram_test.s"

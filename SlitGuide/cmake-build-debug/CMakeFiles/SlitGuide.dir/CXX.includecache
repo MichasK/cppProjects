@@ -289,6 +289,8 @@ opencv2/core/core.hpp
 -
 opencv2/highgui/highgui.hpp
 -
+src/SearchingMethods.hpp
+/home/michal/CLionProjects/SlitGuide/src/SearchingMethods.hpp
 iostream
 -
 src/Frame.hpp
@@ -301,6 +303,8 @@ gtest/gtest.h
 /home/michal/CLionProjects/SlitGuide/src/AstronomicFrame.cpp
 AstronomicFrame.hpp
 /home/michal/CLionProjects/SlitGuide/src/AstronomicFrame.hpp
+SearchingMethods.hpp
+/home/michal/CLionProjects/SlitGuide/src/SearchingMethods.hpp
 iostream
 -
 
@@ -329,6 +333,24 @@ exception
 /home/michal/CLionProjects/SlitGuide/src/SearchingMethods.cpp
 opencv2/core/types.hpp
 -
+opencv2/core/mat.hpp
+-
+opencv2/imgproc/imgproc.hpp
+/home/michal/CLionProjects/SlitGuide/src/opencv2/imgproc/imgproc.hpp
+opencv2/highgui/highgui.hpp
+/home/michal/CLionProjects/SlitGuide/src/opencv2/highgui/highgui.hpp
+SearchingMethods.hpp
+/home/michal/CLionProjects/SlitGuide/src/SearchingMethods.hpp
+iostream
+-
+
+/home/michal/CLionProjects/SlitGuide/src/SearchingMethods.hpp
+opencv2/core/types.hpp
+-
+opencv2/core/mat.hpp
+-
+AstronomicFrame.hpp
+/home/michal/CLionProjects/SlitGuide/src/AstronomicFrame.hpp
 
 /home/michal/CLionProjects/SlitGuide/test/AstronomicFram_test.cpp
 AstronomicFram_test.hpp
@@ -1219,6 +1241,10 @@ opencv2/highgui.hpp
 /usr/local/include/opencv2/opencv2/highgui.hpp
 opencv2/imgproc/imgproc_c.h
 /usr/local/include/opencv2/opencv2/imgproc/imgproc_c.h
+
+/usr/local/include/opencv2/imgproc/imgproc.hpp
+opencv2/imgproc.hpp
+/usr/local/include/opencv2/imgproc/opencv2/imgproc.hpp
 
 /usr/local/include/opencv2/imgproc/imgproc_c.h
 opencv2/imgproc/types_c.h
