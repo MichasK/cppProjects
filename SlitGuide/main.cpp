@@ -15,5 +15,7 @@ int main( int argc, char** argv )
     AstronomicFrame f("/home/michal/CLionProjects/SlitGuide/Frames/GuideFrame_2015_03_10_18_09_02.bmp");
     std::function<cv::Point(AstronomicFrame)> calculate=RectangleCenter;
     cv::Point a = calculateGuideCenter(f,calculate);
+    
+    
     return 0;
 }
