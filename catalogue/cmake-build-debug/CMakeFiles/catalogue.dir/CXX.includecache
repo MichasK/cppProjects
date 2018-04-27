@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Catalogue.hpp
+map
+-
+string
+-
+vector
+-
+functional
+-
+Product.hpp
+../include/Product.hpp
+
+../include/Product.hpp
+string
+-
+
+/home/michal/CLionProjects/catalogue/main.cpp
+iostream
+-
+
+/home/michal/CLionProjects/catalogue/src/Catalogue.cpp
+Product.hpp
+/home/michal/CLionProjects/catalogue/src/Product.hpp
+Catalogue.hpp
+/home/michal/CLionProjects/catalogue/src/Catalogue.hpp
+
+/home/michal/CLionProjects/catalogue/src/Product.cpp
+Product.hpp
+/home/michal/CLionProjects/catalogue/src/Product.hpp
+sstream
+-
+

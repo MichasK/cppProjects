@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/nordic_semiconductor_test.dir/main.c.o CMakeFiles/nordic_semiconductor_test.dir/max_num_from_digits.c.o CMakeFiles/nordic_semiconductor_test.dir/sorts_lib.c.o  -o nordic_semiconductor_test 

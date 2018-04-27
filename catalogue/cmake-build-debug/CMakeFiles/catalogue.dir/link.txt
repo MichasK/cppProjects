@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -pthread -g   CMakeFiles/catalogue.dir/main.cpp.o CMakeFiles/catalogue.dir/src/Product.cpp.o CMakeFiles/catalogue.dir/src/Catalogue.cpp.o  -o catalogue 

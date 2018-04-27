@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/michal/CLionProjects/nordic_semiconductor_test/main.c
+stdio.h
+-
+max_num_from_digits.h
+/home/michal/CLionProjects/nordic_semiconductor_test/max_num_from_digits.h
+
+/home/michal/CLionProjects/nordic_semiconductor_test/max_num_from_digits.c
+max_num_from_digits.h
+/home/michal/CLionProjects/nordic_semiconductor_test/max_num_from_digits.h
+sorts_lib.h
+/home/michal/CLionProjects/nordic_semiconductor_test/sorts_lib.h
+stdlib.h
+-
+stdbool.h
+-
+stdio.h
+-
+
+/home/michal/CLionProjects/nordic_semiconductor_test/max_num_from_digits.h
+
+/home/michal/CLionProjects/nordic_semiconductor_test/sorts_lib.c
+stdbool.h
+-
+stdio.h
+-
+
+/home/michal/CLionProjects/nordic_semiconductor_test/sorts_lib.h
+
