@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/nordic_semiconductor_test.dir/main.c.o"
   "CMakeFiles/nordic_semiconductor_test.dir/max_num_from_digits.c.o"
   "CMakeFiles/nordic_semiconductor_test.dir/sorts_lib.c.o"
+  "CMakeFiles/nordic_semiconductor_test.dir/local_extremas.c.o"
   "nordic_semiconductor_test.pdb"
   "nordic_semiconductor_test"
 )

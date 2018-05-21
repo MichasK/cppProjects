@@ -78,6 +78,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/michal/CLionProjects/nordic_semiconductor_test/local_extremas.c">
+			<Option target="nordic_semiconductor_test"/>
+		</Unit>
+		<Unit filename="/home/michal/CLionProjects/nordic_semiconductor_test/local_extremas.h">
+			<Option target="nordic_semiconductor_test"/>
+		</Unit>
 		<Unit filename="/home/michal/CLionProjects/nordic_semiconductor_test/main.c">
 			<Option target="nordic_semiconductor_test"/>
 		</Unit>

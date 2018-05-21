@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/C_trainee.dir/main.c.o CMakeFiles/C_trainee.dir/src/basic_algo.c.o CMakeFiles/C_trainee.dir/src/matrix.c.o  -o C_trainee -lm 

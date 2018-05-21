@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "/home/michal/CLionProjects/nordic_semiconductor_test/local_extremas.c" "/home/michal/CLionProjects/nordic_semiconductor_test/cmake-build-debug/CMakeFiles/nordic_semiconductor_test.dir/local_extremas.c.o"
   "/home/michal/CLionProjects/nordic_semiconductor_test/main.c" "/home/michal/CLionProjects/nordic_semiconductor_test/cmake-build-debug/CMakeFiles/nordic_semiconductor_test.dir/main.c.o"
   "/home/michal/CLionProjects/nordic_semiconductor_test/max_num_from_digits.c" "/home/michal/CLionProjects/nordic_semiconductor_test/cmake-build-debug/CMakeFiles/nordic_semiconductor_test.dir/max_num_from_digits.c.o"
   "/home/michal/CLionProjects/nordic_semiconductor_test/sorts_lib.c" "/home/michal/CLionProjects/nordic_semiconductor_test/cmake-build-debug/CMakeFiles/nordic_semiconductor_test.dir/sorts_lib.c.o"

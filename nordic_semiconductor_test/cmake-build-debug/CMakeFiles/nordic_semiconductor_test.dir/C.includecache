@@ -6,9 +6,19 @@
 
 #IncludeRegexTransform: 
 
+/home/michal/CLionProjects/nordic_semiconductor_test/local_extremas.c
+local_extremas.h
+/home/michal/CLionProjects/nordic_semiconductor_test/local_extremas.h
+
+/home/michal/CLionProjects/nordic_semiconductor_test/local_extremas.h
+stdio.h
+-
+
 /home/michal/CLionProjects/nordic_semiconductor_test/main.c
 stdio.h
 -
+local_extremas.h
+/home/michal/CLionProjects/nordic_semiconductor_test/local_extremas.h
 max_num_from_digits.h
 /home/michal/CLionProjects/nordic_semiconductor_test/max_num_from_digits.h
 

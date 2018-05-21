@@ -123,6 +123,33 @@ nordic_semiconductor_test/fast:
 	$(MAKE) -f CMakeFiles/nordic_semiconductor_test.dir/build.make CMakeFiles/nordic_semiconductor_test.dir/build
 .PHONY : nordic_semiconductor_test/fast
 
+local_extremas.o: local_extremas.c.o
+
+.PHONY : local_extremas.o
+
+# target to build an object file
+local_extremas.c.o:
+	$(MAKE) -f CMakeFiles/nordic_semiconductor_test.dir/build.make CMakeFiles/nordic_semiconductor_test.dir/local_extremas.c.o
+.PHONY : local_extremas.c.o
+
+local_extremas.i: local_extremas.c.i
+
+.PHONY : local_extremas.i
+
+# target to preprocess a source file
+local_extremas.c.i:
+	$(MAKE) -f CMakeFiles/nordic_semiconductor_test.dir/build.make CMakeFiles/nordic_semiconductor_test.dir/local_extremas.c.i
+.PHONY : local_extremas.c.i
+
+local_extremas.s: local_extremas.c.s
+
+.PHONY : local_extremas.s
+
+# target to generate assembly for a file
+local_extremas.c.s:
+	$(MAKE) -f CMakeFiles/nordic_semiconductor_test.dir/build.make CMakeFiles/nordic_semiconductor_test.dir/local_extremas.c.s
+.PHONY : local_extremas.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -213,6 +240,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... nordic_semiconductor_test"
+	@echo "... local_extremas.o"
+	@echo "... local_extremas.i"
+	@echo "... local_extremas.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

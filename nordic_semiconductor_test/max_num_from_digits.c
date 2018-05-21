@@ -9,7 +9,6 @@
 #include <stdio.h>
 
 
-
 int ten_to_power(int x) {
     if (x == 0) return 1;
     else return 10 * ten_to_power(x - 1);
@@ -30,7 +29,7 @@ long int max_num_from_digits(long int num) {
         num = num / 10;
         sep_num[i] = digit;
     }
-    buble_sort(sep_num,digits);
+    buble_sort(sep_num, digits);
     int result = 0;
     for (int tmp = i - 1; tmp >= 0; tmp--) result += sep_num[tmp] * ten_to_power(tmp);
     return result;
@@ -41,13 +40,4 @@ int difference_sign_change(int x1, int x2, int x3) {
     if ((x2 > x1 && x3 > x2) || (x2 < x1 && x3 < x2)) return 0;
     if (x2 < x1 && x3 > x1) return -1;//
     if (x2 > x1 && x3 < x2) return 1;//
-}
-
-struct extremas find_extremas(int *tab, int tab_length) {
-    struct extremas extremas;
-    for (int i = 1; i < tab_length - 1;i++) {
-        if (difference_sign_change(tab[i - 1], tab[i], tab[i + 1]) == 1) extremas.maxima++;
-        if (difference_sign_change(tab[i - 1], tab[i], tab[i + 1]) == -1) extremas.maxima--;
-    }
-
 }
